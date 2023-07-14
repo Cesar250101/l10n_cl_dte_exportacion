@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data noupdate="1">
+    <record model="aduanas.clausula_venta" id="cif">
+      <field name="name">CIF</field>
+      <field name="code">1</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="cfr">
+      <field name="name">CFR</field>
+      <field name="code">2</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="efw">
+      <field name="name">EXW</field>
+      <field name="code">3</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="fas">
+      <field name="name">FAS</field>
+      <field name="code">4</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="fob">
+      <field name="name">FOB</field>
+      <field name="code">5</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="s_clausula">
+      <field name="name">S_CLAUSULA</field>
+      <field name="code">6</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="ddp">
+      <field name="name">DDP</field>
+      <field name="code">9</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="fca">
+      <field name="name">FCA</field>
+      <field name="code">10</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="cpt">
+      <field name="name">CPT</field>
+      <field name="code">11</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="cip">
+      <field name="name">CIP</field>
+      <field name="code">12</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="dat">
+      <field name="name">DAT</field>
+      <field name="code">17</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="dap">
+      <field name="name">DAP</field>
+      <field name="code">18</field>
+    </record>
+    <record model="aduanas.clausula_venta" id="otros">
+      <field name="name">OTROS</field>
+      <field name="code">8</field>
+    </record>
+
+  </data>
+</odoo>
